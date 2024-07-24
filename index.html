@@ -23,7 +23,7 @@
       <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
-                <i class="ri-plant-fill"></i> Sorgum
+                <i class="ri-plant-fill"></i> Joya Sorgum
             </a>
             <div class="nav__menu">
                 <ul class="nav__list">
@@ -35,19 +35,19 @@
                     </li>
                     <li class="nav__item">
                         <a href="about.html" class="nav__link">
-                            <i class="ri-book-2-line"></i>
+                            <i class="ri-seedling-line"></i>
                             <span> About </span>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="products.html" class="nav__link">
-                            <i class="ri-price-tag-3-line"></i>
+                            <i class="ri-cactus-line"></i>
                             <span> Products </span>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="galeri.html" class="nav__link">
-                            <i class="ri-bookmark-fill"></i>
+                            <i class="ri-landscape-line"></i>
                             <span> Gallery </span>
                         </a>
                     </li>
@@ -62,8 +62,6 @@
             <div class="nav__actions">
                 <!-- Search Button-->
                 <i class="ri-search-line search-button" id="search-button"></i>
-                <!-- Login Button -->
-                <i class="ri-user-5-line login-button" id="login-button"></i>
                 <!--Theme Button-->
                 <i class="ri-moon-fill change-theme" id="theme-button"></i>
 
@@ -76,40 +74,17 @@
       <div class="search" id="search-content">
         <form action="" class="search__form">
             <i class="ri-search-line search__icon"></i>
-            <input type="search" placeholder="what are you looking for?" class="search__input">
+            <input type="search" placeholder="what are you looking for?" class="search__input"  id="search-input">
         </form>
         <i class="ri-close-line search__close" id="search-close"></i>
 
          
       </div>
 
-      <!--==================== LOGIN ====================-->
-      <div class="login grid" id="login-content">
-        <form action="" class="login__form grid">
-            <h3 class="login__title"> Log In</h3>
-            <div class="login__group grid">
-             <div>
-                <label for="login-email" class="login__label"> Email</label>
-                <input type="email" placeholder="Write your email" id="login-email" class="login__input">
-             </div>
 
-             <div>
-                <label for="login-pass" class="login__label"> Password </label>
-                <input type="password" placeholder="Enter your Password" id="login-pass" class="login__input">
-             </div>
-            </div>
-            <div>
-              <span class="login__signup">
-                Belum punya akun? <a href="#"> Sign up</a>
-              </span> 
-              <a href="" class="login__forgot">
-                Lupa password?
-              </a> 
-              <button type="submit" class="login__button button"> Log In </button>
-            </div>
-        </form>
-        <i class="ri-close-line login__close" id="login-close"></i>
-      </div>
+     
+      <!--==================== LOGIN ====================-->
+      
 
       <!--==================== MAIN ====================-->
       <main class="main">
@@ -125,7 +100,7 @@
                         Find the best sorgum with all
                         possible categories and good quality
                     </p>
-                    <a href="#" class="button"> Explore Now</a>  
+                    
                 </div>
 
                 <div class="home__images">
@@ -160,7 +135,7 @@
                 <article class="services__card">
                     <i class="ri-truck-line"></i>
                     <h3 class="services__title">Free Shopping</h3>
-                    <p class="services__description">Order More Than 10k</p>
+                    <p class="services__description">Order Now</p>
                 </article>
 
                 <article class="services__card">
@@ -195,7 +170,8 @@
                                
                             </div>
 
-                            <button class="button">Read More</button>
+                            <button class="button" onclick="location.href='beras.html';">Read More</button>
+
 
                             <div class="featured__actions">
                                 <button><i class="ri-search-line"></i></button>
@@ -211,7 +187,8 @@
                                
                             </div>
 
-                            <button class="button"> Read More </button>
+                            <button class="button" onclick="location.href='tepung.html';">Read More</button>
+
 
                             <div class="featured__actions">
                                 <button><i class="ri-search-line"></i></button>
@@ -227,7 +204,8 @@
                                
                             </div>
 
-                            <button class="button"> Read More </button>
+                            <button class="button" onclick="location.href='batang.html';">Read More</button>
+
 
                             <div class="featured__actions">
                                 <button><i class="ri-search-line"></i></button>
@@ -237,13 +215,14 @@
                         </article>
 
                         <article class="featured__card swiper-slide">
-                            <img src="assets/img/brs_srgm.png" alt="image" class="featured__img">
-                            <h2 class="featured__title"> Sorgum </h2>
+                            <img src="assets/img/silase.jpg" alt="image" class="featured__img">
+                            <h2 class="featured__title"> Silase </h2>
                             <div class="featured__prices">
                                
                             </div>
 
-                            <button class="button"> Read More </button>
+                            <button class="button" onclick="location.href='silase.html';">Read More</button>
+
 
                             <div class="featured__actions">
                                 <button><i class="ri-search-line"></i></button>
@@ -268,22 +247,23 @@
             <div class="discount__container container grid">
                 <div class="discount__data">
                     <h2 class="discount__title section__title">
-                        up to 50% discount
+                        Mari Beralih !!!
                     </h2>
                     <p class="discount__description">
-                        Ambil diskonnya dan nikmatin
+                      <b>  Mari segera beralih ke Joya Sorgum rasakan <br>
+                         dan nikmati perbedaannya </b>
                     </p>
-                    <a href="#" class="button"> Beli Sekarang</a> 
+                 
                 </div>
                <div class="discount__images">
-                <img src="assets/img/brs_srgm.png" alt="image" class="discount__img-1">
-                <img src="assets/img/tpg_srgm.png" alt="image" class="discount__img-2">
+                <img src="assets/img/d1.png" alt="image" class="discount__img-1">
+                <img src="assets/img/download (2).png" alt="image" class="discount__img-2">
                </div>
             </div>
 
          </section>
 
-         <!--==================== NEW BOOKS ====================-->
+         <!--==================== NEW Image ====================-->
          <section class="new section" id="new">
             <h2 class="section__title">
                 OUR GALLERY
@@ -351,38 +331,21 @@
          </section>
 
          <!--==================== JOIN ====================-->
-         <section class="join section">
-            <div class="join__container">
-                <img src="assets/img/join-bg.jpg" alt="image" class="join__bg">
-                <div class="join__data container grid">
-                    <h2 class="join__title section__title">
-                        subscribe to Receive <br>
-                        The latest Updates
-                    </h2>
-                    <form action="" class="join__form">
-                        <input type="email" placeholder="Enter email " class="join__input">
-                        <button type="submit" class="join__button button">subscribe</button>
-
-                    </form>
-                </div>
-            </div>
-            
-         </section>
-
+        
          <!--==================== TESTIMONIAL ====================-->
          <section class="testimonial section" id="testimonial">
             <h2 class="section__title">
-                Customer Opinions
+                Apa Kata Mereka?
             </h2>
 
             <div class="testimonial__container container">
                 <div class="testimonial__swiper swiper">
                     <div class="swiper-wrapper">
                         <article class="testimonial__card swiper-slide">
-                            <img src="assets/img/daniele.png" alt="image" class="testimonial__img">
-                            <h2 class="testimonial__title"> Cristina Silaban</h2>
+                            <img src="assets/img/pp.png" alt="image" class="testimonial__img">
+                            <h2 class="testimonial__title"> Sutrisno </h2>
                             <p class="testimonial__description">
-                                Kualitas sorgumnya oke banget
+                                Kualitas sorgumnya oke dan sangat bermanfaat 👍
                             </p>
                             <div class="testimonial__stars">
                                 <i class="ri-star-fill"></i>
@@ -393,10 +356,10 @@
                             </div>
                         </article>
                         <article class="testimonial__card swiper-slide">
-                            <img src="assets/img/daniele.png" alt="image" class="testimonial__img">
-                            <h2 class="testimonial__title"> Cristina Silaban</h2>
+                            <img src="assets/img/pp.png" alt="image" class="testimonial__img">
+                            <h2 class="testimonial__title"> Eko </h2>
                             <p class="testimonial__description">
-                                Kualitas sorgumnya oke banget
+                               Gak nyesal memilih produk ini karna memang sebagus itu👌
                             </p>
                             <div class="testimonial__stars">
                                 <i class="ri-star-fill"></i>
@@ -407,10 +370,10 @@
                             </div>
                         </article>
                         <article class="testimonial__card swiper-slide">
-                            <img src="assets/img/daniele.png" alt="image" class="testimonial__img">
-                            <h2 class="testimonial__title"> Cristina Silaban</h2>
+                            <img src="assets/img/pp.png" alt="image" class="testimonial__img">
+                            <h2 class="testimonial__title"> Mela </h2>
                             <p class="testimonial__description">
-                                Kualitas sorgumnya oke banget
+                                Kualitas produk dan respon sangat baik
                             </p>
                             <div class="testimonial__stars">
                                 <i class="ri-star-fill"></i>
@@ -421,10 +384,10 @@
                             </div>
                         </article>
                         <article class="testimonial__card swiper-slide">
-                            <img src="assets/img/daniele.png" alt="image" class="testimonial__img">
-                            <h2 class="testimonial__title"> Cristina Silaban</h2>
+                            <img src="assets/img/pp.png" alt="image" class="testimonial__img">
+                            <h2 class="testimonial__title"> Dewi</h2>
                             <p class="testimonial__description">
-                                Kualitas sorgumnya oke banget
+                                Awalnya sempat ragu mau nyoba, tapi setelah dicoba jadi ketagihan
                             </p>
                             <div class="testimonial__stars">
                                 <i class="ri-star-fill"></i>
@@ -446,64 +409,43 @@
          <div class="footer__container container grid">
             <div>
                 <a href="" class="footer__logo">
-                    <i class="ri-plant-fill"></i> Sorgum
+                    <i class="ri-plant-fill"></i> Joya Sorgum
             </a>
             <p class="footer__description">
-                Find and explore the best <br>
-                sorgum from all your <br>
-                 best choices.
+                Temukan dan jelajahi sorgum <br>
+                terbaik dari semua  <br>
+                 pilihan terbaik anda. 
             </p>
             </div>
             <div class="footer__data grid">
+                
                 <div>
-                    <h3 class="footer__title">About</h3>
+                    <h3 class="footer__title"> Contact </h3>
                     <ul class="footer__links">
                        <li>
-                        <a href="" class="footer__link">Awards</a>
+                        <a href="https://api.whatsapp.com/send?phone=6282231859093" target="_blank" class="footer__link">
+                            <i class="ri-whatsapp-line"> </i>
+                            +6282231859093 </a>
                        </li> 
 
                        <li>
-                        <a href="" class="footer__link">FAQS</a>
-                       </li> 
-
-                       <li>
-                        <a href="" class="footer__link">Privacy Policy</a>
-                       </li> 
-
-                       <li>
-                        <a href="" class="footer__link">Terms of services</a>
+                        <a href="Tridayausahajayaa@gmail.com" target="_blank" class="footer__link">
+                            <i class="ri-mail-line"></i>
+                            Tridayausahajayaa@gmail.com</a>
+                        </a>
                        </li> 
                     </ul>
                 </div>
 
                 <div>
-                    <h3 class="footer__title">Company</h3>
-                    <ul class="footer__links">
-                       <li>
-                        <a href="" class="footer__link">Blogs</a>
-                       </li> 
-
-                       <li>
-                        <a href="" class="footer__link">Comunity</a>
-                       </li> 
-
-                       <li>
-                        <a href="" class="footer__link">Our team</a>
-                       </li> 
-                       
-                       <li>
-                        <a href="" class="footer__link">Help center </a>
-                       </li> 
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="footer__title">Contact</h3>
+                    <h3 class="footer__title"> Alamat</h3>
                     <ul class="footer__links">
                        <li>
                         <address class="footer__info">
-                            Jln.Hatiku <br>
-                            Royal Dahana 2244
+                            Jl sentul nyapah kp. Curug bonteng <br> 
+                            desa kramat jati <br>
+                            Kec kragilan Kab Serang Banten <br>
+                            Patokan rumah dapan SMA N 1 kragilan
                         </address>
                         </li>
                        
@@ -514,20 +456,10 @@
                 <div>
                     <h3 class="footer__title">Social</h3>
                     <div class="footer__social">
-                        <a href="" target="_blank" class="footer__social-link">
-                            <i class="ri-whatsapp-line"></i>
-                        </a>
-
-                        <a href="" target="_blank" class="footer__social-link">
-                            <i class="ri-mail-line"></i>
-                        </a>
-                        <a href="https://x.com/IndonesiaSorgum" target="_blank" class="footer__social-link">
-                            <i class="ri-twitter-fill"></i>
-                        </a>
                         <a href="https://www.facebook.com/mysorgum" target="_blank" class="footer__social-link">
                             <i class="ri-facebook-circle-fill"></i>
                         </a>
-                        <a href="https://www.instagram.com/mysorgum/" target="_blank" class="footer__social-link">
+                        <a href="https://www.instagram.com/parsaulian.pardede?igsh=MXV1ajRqb210eDB1YQ==" target="_blank" class="footer__social-link">
                             <i class="ri-instagram-fill"></i>
                         </a>
                         <a href="https://www.youtube.com/channel/UCe84idFACbTMhoBq8O7Lm4w" target="_blank" class="footer__social-link">
@@ -561,5 +493,29 @@
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
+
+        <!--=============== Untuk Search  ===============-->
+      <script>
+        // Function to handle the search action
+        function handleSearch() {
+            const query = document.getElementById('search-input').value;
+            if(query) {
+                window.location.href = `search.html?query=${query}`;
+            }
+        }
+
+        // Add event listener to the search icon
+        document.getElementById('search-icon').addEventListener('click', handleSearch);
+
+        // Optional: Close the search bar when the close icon is clicked
+        document.getElementById('search-close').addEventListener('click', function() {
+            document.getElementById('search-content').style.display = 'none';
+        });
+
+        // Optional: Open the search bar when the search icon is clicked
+        document.getElementById('search-button').addEventListener('click', function() {
+            document.getElementById('search-content').style.display = 'block';
+        });
+    </script>
    </body>
 </html>
